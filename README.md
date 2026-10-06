@@ -103,7 +103,7 @@ inventra-system/
 
 ### 1. Clone
 ```bash
-git clone https://github.com/Najma-web-cell/inventra-inventory-management-system.git
+git clone https://github.com/Najma-web-cell/-inventory-management-.git
 cd inventra-inventory-management-system
 ```
 
