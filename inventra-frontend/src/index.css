@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-family: 'Avenir Next', 'Segoe UI', sans-serif;
+	color: #20243a;
+	background: #f4f6ff;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	min-width: 320px;
+	min-height: 100vh;
+	margin: 0;
+}
+
+button,
+input,
+select {
+	font: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+a:focus-visible {
+	outline: 3px solid rgba(72, 215, 207, 0.45);
+	outline-offset: 2px;
+}
+
+@keyframes inventra-rise {
+	from { opacity: 0; transform: translateY(12px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+.inventra-enter {
+	animation: inventra-rise 0.55s ease-out both;
+}
+
+@layer utilities {
+	.glass-panel {
+		background: rgba(255, 255, 255, 0.74);
+		backdrop-filter: blur(18px);
+		-webkit-backdrop-filter: blur(18px);
+		border: 1px solid rgba(255, 255, 255, 0.9);
+		box-shadow: 0 18px 45px rgba(72, 82, 155, 0.1);
+	}
+}

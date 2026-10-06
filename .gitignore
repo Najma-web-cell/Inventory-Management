@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Secrets (never push these)
+.env
+.env.*
+!.env.example
+
+# Uploaded product images (keep the folder itself)
+inventra-backend/public/uploads/*
+!inventra-backend/public/uploads/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary check files
+check-db.js
