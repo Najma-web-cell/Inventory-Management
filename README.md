@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📦 -Inventory-Management-System
+# 📦 Inventory-Management-System
 
 **Track stock, suppliers and every important action from one calm workspace.**
 
